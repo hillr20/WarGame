@@ -2,7 +2,15 @@
 public class WarGame {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Card c1 = new Card();
+		System.out.println(c1);
+		
+		char suit = 'D';
+		char rank = '2';
+		
+		Card c2 = new Card(suit, rank);
+		System.out.println(c2);
+		
 
 	}
 
